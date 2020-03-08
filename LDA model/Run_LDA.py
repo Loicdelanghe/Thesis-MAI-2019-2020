@@ -8,7 +8,7 @@ from sklearn.decomposition import LatentDirichletAllocation
 
 
 
-df = pd.read_csv('movies_labeled.csv',encoding = "ISO-8859-1")
+df = pd.read_csv('Data/movies_labeled.csv',encoding = "ISO-8859-1")
 
 
 print("PREPROCESSING DATA...")
